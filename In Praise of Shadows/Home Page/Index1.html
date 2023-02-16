@@ -1,0 +1,71 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Home Page</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+
+<style>
+
+body {
+  background: #222222;
+  font-size: 70px;
+  height: 2000px;
+  text-align: center;
+}
+
+#expandable {
+  width: 100vw; 
+  height: 100vh;
+  text-align: center;
+  position: fixed;
+  font-size: 5vw;
+  transform-origin: center top;
+}
+
+    </style>
+
+  </head>
+  <body>
+  <div id="expandable">
+
+         
+陰
+翳
+礼
+讃
+
+In 
+Praise 
+of 
+Shad
+ows 
+  
+  </div>  
+
+
+  <script>
+
+    $(function() {
+    
+    $(window).scroll(function() {
+    
+      var mass = Math.min(20, 1+0.005*$(this).scrollTop());
+    
+      $('#expandable').css('transform', 'scale(' + mass + ')');
+    });
+    });
+    
+        </script>
+
+</body>
+
+</html>
+
