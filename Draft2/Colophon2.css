@@ -1,0 +1,183 @@
+
+body {
+    background: #222222;
+    font-family: 'Lato', sans-serif;
+    margin: 6rem;
+  }
+
+p1, p2 {
+  display: inline-block;
+}
+
+.side_center {
+  margin: 0px auto;
+  display: table;
+}
+
+p1 {
+  font-size:16px;
+  text-align: center;
+  white-space: pre;
+  color: black;
+}
+
+p1:hover {
+    color: white;
+}
+
+p2 {
+  font-size: 16px;
+  text-align: center;
+  white-space: pre;
+  color: black
+}
+
+p2:hover {
+  color: white;
+}
+
+.myclass {
+    display: table-cell;
+    margin: 0em;
+    padding: 1em;
+    height: auto;
+    vertical-align:top;
+}
+
+  a { color:black }
+  a:link { text-decoration: none; }
+  a:visited { text-decoration: none; }
+  a:hover { text-decoration: none; color:white; }
+  a:active { text-decoration: none; }
+  
+h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 300;
+    padding-top: 70px;
+    white-space: pre;
+  }
+
+  @media screen and (max-width: 1000px) {
+    h1 {
+                display: none;
+            }
+  }
+
+p3 {
+    color: black;
+}
+
+p4 {
+    color: white;
+}
+
+    body {
+    background: #222222;
+    font-family: 'Lato', sans-serif;
+    margin: 6rem;
+  }
+  p {
+    color: black;
+    
+  }
+
+  div.hide {
+    color: black;
+  }
+
+div.reveal {
+  color: black;
+  text-align: center;
+  font-size: 60px;
+  padding: 50px 130px 20px 200px;
+}
+
+@media screen and (min-width: 768px) {
+  div.reveal {
+    display: none;
+  }
+
+        @media sreen and (max-width: 768px) {
+            .p {
+                color: white;
+            }
+            div.hide {
+                font-size: 300px;
+                display: none;
+            }
+        }
+}
+
+
+
+  p:hover {
+    color: white;
+  }
+
+  .box {
+        display: inline-block;
+        width: 200px;
+        height: 200px;
+        margin: 60px;
+        padding: 20px;
+      }
+      
+      @media (max-width: 1000px) {
+        .box {
+          display: block;
+        }
+
+        p1{
+            text-align: center;
+            color: white;
+            font-size:15px;
+        }
+        p2{
+            text-align: center;
+            color: white;
+            font-size:15px;
+      }
+        p3{
+            font-size: 60px;
+            font-display: none;
+        }
+        p4{
+            font-size: 40px;
+            text-align: center;
+        }
+      }
+
+      p {
+    color: black;
+    
+  }
+
+  div.hide {
+    color: black;
+  }
+
+div.reveal {
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 60px;
+  margin-right: 500px;
+  white-space: pre;
+}
+
+@media screen and (min-width: 768px) {
+  div.reveal { display: none; }
+
+        @media sreen and (max-width: 2000px) {
+            .p {
+                color: white;
+            }
+            div.hide {
+                font-size: 300px;
+                display: none;
+            }
+        }
+}
+
