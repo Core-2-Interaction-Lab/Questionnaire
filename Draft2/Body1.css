@@ -55,6 +55,7 @@
      min-height: 200px;
       margin-bottom: 1em;
       display: flex;
+      padding-top: 200px;
     }
     
     .side {
