@@ -24,12 +24,13 @@
     }
     
     header {
-      header {
       position: relative;
       font-family: 'Lato';
       font-style: normal;
+      padding-top: 100px;
+      padding-bottom: 100px;
     }
-    }
+    
     
     p {
     font-family: 'Lato';
