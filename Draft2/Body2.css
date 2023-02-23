@@ -86,13 +86,13 @@
     
     div.home {
       position: fixed;
-      top: 130px;
+      top: 15px;
       right: 0px;
-      left: 200px;
+      left: 1210px;
       padding: 10px 0px;
       text-decoration: none;
       border-radius: 5px;
-      font-size: 50px;
+      font-size: 60px;
       white-space: pre;
       font-family: 'Lato', sans-serif;
       line-height: 50px;
@@ -108,7 +108,7 @@
       text-decoration: none;
       border-radius: 5px;
       text-align: justify;
-      font-size: 30px;
+      font-size: 15px;
       font-family: 'Lato', sans-serif;
       line-height: 50px;
     }
