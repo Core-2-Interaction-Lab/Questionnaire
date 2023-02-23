@@ -127,31 +127,7 @@ p4 {
         padding: 20px;
         position: relative;
       }
-      
-      @media (max-width: 1000px) {
-        .box {
-          display: block;
-        }
 
-        p1{
-            text-align: center;
-            color: white;
-            font-size:15px;
-        }
-        p2{
-            text-align: center;
-            color: white;
-            font-size:15px;
-      }
-        p3{
-            font-size: 60px;
-            font-display: none;
-        }
-        p4{
-            font-size: 40px;
-            text-align: center;
-        }
-      }
 
       p {
     color: black;
@@ -171,11 +147,16 @@ div.reveal {
   white-space: pre;
 }
 
-@media (max-width: 900px) {
-    .box {
-      display: block;
-    }
+@media screen and (max-width: 950px) {
+    .box{
+        width: 80px;
+        height: 100px;
+        display: inline-block;
+        margin: 80px;
+        padding: 10px;
+        align-items: center;
 
+    }
     p1{
         text-align: center;
         color: white;
@@ -212,4 +193,12 @@ div.reveal {
     h1 {
         font-size: 40px;
     }
+    .box {
+        display: block;
+        width: 100px;
+        height: 100px;
+        padding: 30px;
+        align-items: center;
+        margin-top: 10px;
+      }
 }

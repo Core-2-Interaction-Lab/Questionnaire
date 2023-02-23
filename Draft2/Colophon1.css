@@ -129,10 +129,9 @@ p4 {
       }
       
       @media (max-width: 900px) {
-        .box {
-          display: block;
+        .box{
+            align-items: center;
         }
-
         p1{
             text-align: center;
             color: white;
@@ -169,5 +168,8 @@ p4 {
         h1 {
             font-size: 40px;
         }
+        .box {
+            display: block;
+          }
     }
     
