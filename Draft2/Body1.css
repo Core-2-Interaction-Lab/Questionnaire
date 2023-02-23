@@ -55,7 +55,7 @@
       display: flex;
     }
     
-    .side {
+    div.side {
       display: flex;
       justify-content: space-around;
       flex-flow: column nowrap;
@@ -67,7 +67,7 @@
       align-content: center;
     }
     
-    .side-main {
+    div.side-main {
       flex-basis: auto;
       flex-grow: 0;
       flex-shrink: 1;
@@ -114,7 +114,7 @@
     h1,
     .home,
     .colophon,
-    .side {
+    div.side {
             color: #958B8B;
             filter: blur(3.5px);
             font-family: 'Lato', sans-serif;
@@ -139,7 +139,7 @@
         color: white;
     }
 
-    .side:hover {
+    div.side:hover {
         filter: none;
         color: white;
     }
@@ -152,11 +152,12 @@
             a:active { text-decoration: none; }
     
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 1300px) {
       .home {
-        display: block;
+        position: fixed;
       }
     }
+
     
     h2.p {
         font-family: 'Lato', sans-serif;
@@ -170,4 +171,30 @@
       font-size: 90px;
       font-weight: 100;
       padding-bottom: 100px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .home {
+          display: block;
+        }
+
+        div.colophon{
+            text-align: center;
+            color: white;
+            font-size:15px;
+        }
+        div.side{
+            color: white;
+            font-size:15px;
+      }
+        div.side-main {
+            font-size: 10px;
+            color: white;
+        }
+        header {
+            font-size: 20px;
+
+        }
+
+      
     }

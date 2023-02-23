@@ -96,13 +96,6 @@ h1:hover {
     a:hover { text-decoration: none; color:white; }
     a:active { text-decoration: none; }
 
-
-  @media screen and (max-width: 1000px) {
-    h1 {
-                display: none;
-            }
-  }
-
 p3 {
     color: black;
 }
@@ -120,34 +113,6 @@ p4 {
     color: black;
     
   }
-
-  div.hide {
-    color: black;
-  }
-
-div.reveal {
-  color: black;
-  text-align: center;
-  font-size: 60px;
-  padding: 50px 130px 20px 200px;
-}
-
-@media screen and (min-width: 768px) {
-  div.reveal {
-    display: none;
-  }
-
-        @media sreen and (max-width: 768px) {
-            .p {
-                color: white;
-            }
-            div.hide {
-                font-size: 300px;
-                display: none;
-            }
-        }
-}
-
 
 
   p:hover {
@@ -206,17 +171,45 @@ div.reveal {
   white-space: pre;
 }
 
-@media screen and (min-width: 768px) {
-  div.reveal { display: none; }
+@media (max-width: 900px) {
+    .box {
+      display: block;
+    }
 
-        @media sreen and (max-width: 2000px) {
-            .p {
-                color: white;
-            }
-            div.hide {
-                font-size: 300px;
-                display: none;
-            }
-        }
+    p1{
+        text-align: center;
+        color: white;
+        font-size:15px;
+    }
+    p2{
+        text-align: center;
+        color: white;
+        font-size:15px;
+     }
+  .p {
+    color: white;
+    }
+    .p3 {
+        font-size: 800px;
+    }
+    .h1 {
+        padding: none;
+        text-align: justify;
+    }
+
+  h1 {
+    color: white;
+    filter: none;
 }
+  
+  h2 {
+        color: white;
+    }
 
+}
+  
+@media (max-width: 700px) {
+    h1 {
+        font-size: 40px;
+    }
+}
