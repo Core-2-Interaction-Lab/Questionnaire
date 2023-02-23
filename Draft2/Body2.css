@@ -183,13 +183,13 @@
 
 @media screen and (max-width: 1300px) {
     div.side {
-        width: 10%;
+        width: 15%;
         font-size: 20px;
         display: flex;
         justify-content: space-around;
         flex-flow: column nowrap;
         box-align: top;
-        padding-right: 60px;
+        padding-right: 100px;
         height: 400px;
         align-content: center;
         margin: 5px;
