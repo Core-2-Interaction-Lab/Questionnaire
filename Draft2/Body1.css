@@ -126,7 +126,7 @@
             transition: filter 0.5s ease-out;
           }
       
-          h1:hover {
+    h1:hover {
           filter: none;
           color: white;
       }
