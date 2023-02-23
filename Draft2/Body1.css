@@ -113,7 +113,50 @@
       line-height: 50px;
     }
     
+    h1,
+    .home,
+    .colophon,
+    .side {
+            font-size: 37px;
+            line-height: 45px;
+            margin-bottom: 120px;
+            color: #958B8B;
+            filter: blur(3.5px);
+            font-family: 'Lato', sans-serif;
+            -webkit-transition: filter 0.5s ease-out;
+            -moz-transition: filter 0.5s ease-out;
+            -o-transition: filter 0.5s ease-out;
+            transition: filter 0.5s ease-out;
+          }
+      
+          h1:hover {
+          filter: none;
+          color: white;
+      }
+
+    .home:hover {
+        filter: none;
+        color: white;
+    }
+
+    .colophon:hover {
+        filter: none;
+        color: white;
+    }
+
+    .side:hover {
+        filter: none;
+        color: white;
+    }
+      
+      
+            a { color:#958B8B }
+            a:link { text-decoration: none; }
+            a:visited { text-decoration: none; }
+            a:hover { text-decoration: none; color:white; }
+            a:active { text-decoration: none; }
     
+
     @media screen and (min-width: 768px) {
       .home {
         display: block;
