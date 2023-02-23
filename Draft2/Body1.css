@@ -117,9 +117,6 @@
     .home,
     .colophon,
     .side {
-            font-size: 37px;
-            line-height: 45px;
-            margin-bottom: 120px;
             color: #958B8B;
             filter: blur(3.5px);
             font-family: 'Lato', sans-serif;
