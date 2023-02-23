@@ -14,9 +14,9 @@
     
     h2 {
       color: black;
-      transform: rotate(270deg);
       font-size: 80px;
       font-family: 'Lato', sans-serif;
+      white-space: pre;
     }
     
     h2:hover {
@@ -57,19 +57,19 @@
       display: flex;
     }
     
-    .side {
+    div.side {
       display: flex;
       justify-content: space-around;
       flex-flow: column nowrap;
       width: 20%;
       align: top;
-      padding-top: 960px;
+      padding-top: 60px;
       padding-right: 60px;
       height: 400px;
       align-content: center;
     }
     
-    .side-main {
+    div.side-main {
       flex-basis: auto;
       flex-grow: 0;
       flex-shrink: 1;
@@ -84,16 +84,16 @@
       padding: 10px 0;
     }
     
-    .home {
+    div.home {
       position: fixed;
       top: 130px;
       right: 0px;
-      left: 1200px;
+      left: 200px;
       padding: 10px 0px;
       text-decoration: none;
       border-radius: 5px;
-      text-align: justify;
-      font-size: 90px;
+      font-size: 50px;
+      white-space: pre;
       font-family: 'Lato', sans-serif;
       line-height: 50px;
       
