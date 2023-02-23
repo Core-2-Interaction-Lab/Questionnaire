@@ -233,7 +233,7 @@
     }
     div.home {
         position: absolute;
-        top: 15px;
+        top: 10px;
         right: 0px;
         left: 110px;
         padding: 10px 0px;
@@ -249,7 +249,7 @@
       
       .colophon {
         position: absolute;
-        top: 210px;
+        top: 200px;
         right: 0px;
         left: 110px;
         padding: 10px 0px;
