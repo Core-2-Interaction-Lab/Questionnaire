@@ -51,7 +51,7 @@
       a:hover { text-decoration: none; color:white; }
       a:active { text-decoration: none; }
     
-    .flex-container {
+    div.flex-container {
      min-height: 200px;
       margin-bottom: 1em;
       display: flex;
