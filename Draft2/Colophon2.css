@@ -44,7 +44,6 @@ p2:hover {
     vertical-align:top;
 }
 
-  a { color:black }
   a:link { text-decoration: none; }
   a:visited { text-decoration: none; }
   a:hover { text-decoration: none; color:white; }
@@ -75,6 +74,28 @@ h1 {
   h2:hover {
     color: white;
   }
+
+  h1 {
+    color: #958B8B;
+    filter: blur(3.5px);
+    font-family: 'Lato', sans-serif;
+    -webkit-transition: filter 0.5s ease-out;
+    -moz-transition: filter 0.5s ease-out;
+    -o-transition: filter 0.5s ease-out;
+    transition: filter 0.5s ease-out;
+  }
+
+h1:hover {
+  filter: none;
+  color: white;
+}
+
+    a { color:#958B8B }
+    a:link { text-decoration: none; }
+    a:visited { text-decoration: none; }
+    a:hover { text-decoration: none; color:white; }
+    a:active { text-decoration: none; }
+
 
   @media screen and (max-width: 1000px) {
     h1 {
