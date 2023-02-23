@@ -67,10 +67,11 @@
       align-content: center;
       margin: 5px;
       text-align: right;
-      line-height: 100px;
-      font-size: 58px;
       flex-grow: 1;
       padding-right: 70px;
+      font-size: 100px;
+      font-weight: 400;
+      line-height: 120px;
     }
     
     div.side-main {
