@@ -139,6 +139,7 @@ div.reveal {
         height: 200px;
         margin: 60px;
         padding: 20px;
+        position: relative;
       }
       
       @media (max-width: 1000px) {
