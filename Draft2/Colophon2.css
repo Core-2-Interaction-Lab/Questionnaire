@@ -10,8 +10,9 @@ p1, p2 {
 }
 
 .side_center {
-  margin: 0px auto;
-  display: table;
+    margin: 0px auto;
+    display: table;
+    align-items: center;
 }
 
 p1 {
@@ -22,7 +23,7 @@ p1 {
 }
 
 p1:hover {
-    color: white;
+    color: #958B8B;
 }
 
 p2 {
@@ -33,7 +34,7 @@ p2 {
 }
 
 p2:hover {
-  color: white;
+  color: #958B8B;
 }
 
 .myclass {
@@ -46,15 +47,15 @@ p2:hover {
 
   a:link { text-decoration: none; }
   a:visited { text-decoration: none; }
-  a:hover { text-decoration: none; color:white; }
+  a:hover { text-decoration: none; color:#958B8B; }
   a:active { text-decoration: none; }
   
 h1 {
-    color: white;
+    color: #958B8B;
     font-size: 60px;
     text-align: center;
     font-weight: 300;
-    padding-top: 50px;
+    padding-top: 70px;
     white-space: pre;
   }
 
@@ -63,6 +64,7 @@ h1 {
     bottom: 0;
     margin-top: 60px;
     margin-bottom: 50px;
+    padding-top: 100px;
     width: 100%;
     color: black;
     text-align: center;
@@ -72,7 +74,7 @@ h1 {
   }
 
   h2:hover {
-    color: white;
+    color: #958B8B;
   }
 
   h1 {
@@ -87,7 +89,6 @@ h1 {
 
 h1:hover {
   filter: none;
-  color: white;
 }
 
     a { color:#958B8B }
@@ -96,13 +97,15 @@ h1:hover {
     a:hover { text-decoration: none; color:white; }
     a:active { text-decoration: none; }
 
-p3 {
-    color: black;
-}
 
-p4 {
+p3:hover {
     color: white;
 }
+
+p4:hover {
+    color: #958B8B;
+}
+
 
     body {
     background: #222222;
@@ -126,6 +129,7 @@ p4 {
         margin: 60px;
         padding: 20px;
         position: relative;
+        padding-right: 220px;
       }
 
 
@@ -159,12 +163,12 @@ div.reveal {
     }
     p1{
         text-align: center;
-        color: white;
+        color: #958B8B;
         font-size:15px;
     }
     p2{
         text-align: center;
-        color: white;
+        color: #958B8B;
         font-size:15px;
      }
   .p {
@@ -179,12 +183,15 @@ div.reveal {
     }
 
   h1 {
-    color: white;
+    color: #958B8B;
     filter: none;
 }
   
   h2 {
-        color: white;
+        color: #958B8B;
+    }
+    .side_center {
+        padding-right: 100px;
     }
 
 }
@@ -195,8 +202,8 @@ div.reveal {
     }
     .box {
         display: block;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 160px;
         padding: 30px;
         align-items: center;
         margin-top: 10px;

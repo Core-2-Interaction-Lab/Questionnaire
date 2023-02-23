@@ -11,6 +11,7 @@ p1, p2 {
 .side_center {
   margin: 0px auto;
   display: table;
+  align-items: center;
 }
 
 p1 {
@@ -21,7 +22,7 @@ p1 {
 }
 
 p1:hover {
-    color: white;
+    color: #958B8B;
 }
 
 p2 {
@@ -32,7 +33,7 @@ p2 {
 }
 
 p2:hover {
-  color: white;
+  color: #958B8B;
 }
 
 .myclass {
@@ -40,7 +41,6 @@ p2:hover {
     margin: 0em;
     padding: 1em;
     height: auto;
-    vertical-align:top;
 }
 
   a:link { text-decoration: none; }
@@ -49,19 +49,19 @@ p2:hover {
   a:active { text-decoration: none; }
   
 h1 {
-    color: white;
+    color: #958B8B;
     font-size: 60px;
     text-align: center;
-    color: white;
+    color: #958B8B;
     font-weight: 300;
-    padding-top: 50px;
+    padding-top: 100px;
     white-space: pre;
   }
 
 h2 {
     left: 0;
     bottom: 0;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 3px;
     width: 100%;
     color: black;
@@ -72,7 +72,7 @@ h2 {
   }
 
   h2:hover {
-    color: white;
+    color: #958B8B;
   }
 
   h1 {
@@ -98,11 +98,11 @@ h2 {
 
 
 p3 {
-    color: white;
+    color: #958B8B;
 }
 
 p4 {
-    color: white;
+    color: #958B8B;
 }
 
     body {
@@ -122,9 +122,10 @@ p4 {
   .box {
         display: inline-block;
         width: 200px;
-        height: 200px;
+        height: 220px;
         margin: 10px;
         padding: 20px;
+        padding-right: 250px;
         position:relative;
       }
       
@@ -134,16 +135,16 @@ p4 {
         }
         p1{
             text-align: center;
-            color: white;
+            color: #958B8B;
             font-size:15px;
         }
         p2{
             text-align: center;
-            color: white;
+            color: #958B8B;
             font-size:15px;
          }
       .p {
-        color: white;
+        color: #958B8B;
         }
         .p3 {
             font-size: 800px;
@@ -154,12 +155,13 @@ p4 {
         }
 
       h1 {
-        color: white;
+        color: #958B8B;
         filter: none;
+        padding-top: 50px;
     }
       
       h2 {
-            color: white;
+            color: #958B8B;
         }
 
     }
@@ -170,6 +172,7 @@ p4 {
         }
         .box {
             display: block;
+            padding-right: 250px;
           }
     }
     
