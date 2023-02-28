@@ -168,11 +168,14 @@ p4 {
       
     @media (max-width: 700px) {
         h1 {
-            font-size: 40px;
+            font-size: 30px;
         }
         .box {
             display: block;
             padding-right: 250px;
           }
+        p1 {
+          font-size: 6px;
+        }
     }
     
