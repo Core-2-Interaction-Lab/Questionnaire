@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Html Structure Analysis</title>
+
+    <!-- Adds: an internal stylesheet. -->
+    <style>
+      section { margin-top: 120px; }
+      #table-of-contents { margin: 80px 0; }
+      .flex {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+      }
+
+      body {
+        padding: 80px;
+      }
+
+      a { color:black }
+      a:link { text-decoration: none; }
+
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Core 2 Interaction: Lab –&nbsp;<em>Week 2: HTML Structure Analysis</em></h1>
+    </header>
+    <section id="table-of-contents">
+      <ul>
+        <li><a href="#screenshot">Screenshot ↓</a></li>
+        <li><a href="#analysis">Analysis ↓</a></li>
+        <li><a href="#questions">Questions ↓</a></li>
+      </ul>
+    </section>
+    <section id="screenshot">
+      <h2>Screenshot</h2>
+      <img src="Screenshot.png" width="100%">
+      <!-- TODO: Add image tag with src attribute references your screenshot. -->
+    </section>
+    <section id="analysis">
+      <h2>Analysis</h2>
+      <div class="flex">
+        <div>
+          <pre id="analysis--simplified-html">
+          <!-- TODO: Replace with your version of a simplified structure -->
+
+html.head.Wordle - New York times
+div.body
+    div.MomentSystem-module_moment__G9hyw  <!-- entire page wrap -->
+        .div.ad place-ad  <!-- advertisments for babbel -->
+        google_ads_iframe_
+        .div.Ad-module_adContainer
+        .div.MomentSystem-module_moment 
+        .div.App-Module_GameConatiner
+            header
+            .div.GameContainer
+              .div.Board-module_boardContainer
+                .div.Board-module_board
+                  .div.Row-module_row
+                    .div.Tile-module_tile
+              .div.Keyboard-module_keyboard
+                .div.Keyboard-module_row
+                  Buttons
+          </pre>
+        </div>
+        <div id="analysis--text">
+          <!-- TODO: <p>Write a response!</p> -->
+<h2> <a href="https://www.nytimes.com/games/wordle/index.html"> Wordle </a> </h2>
+<pre>
+The div.MomentSystem-module_moment holds all of the content of the wordle page. 
+There are two main sections within the body section, and those are the ad container, 
+and game module. Within the game module are the header and game board. 
+
+Housed in the game container are the game board and the keyboard. Within 
+each of these are the tiles that make up the game, and the keyboard. 
+
+The header houses 4 buttons. On the left is a button  with id="AppHeader-module_navButton__nKv2h", 
+which reveals other games on the New York Times website, and on the right is three buttons with a 
+div class="AppHeader-module_menuRight__Noasd". These three buttons have ids of “help-button”, 
+“statistics-button” and “settings-button”  Also housed in the header is the Wordle Title, with 
+class="AppHeader-module_title__EQr6V"
+</pre>
+        </div>
+      </div>
+    </section>
+    <section id="questions">
+      <h2>Questions</h2>
+      <ul>
+        <li>
+          What does it mean when a role is assigned to an element?
+        </li>
+        <li>
+          What do all of the meta tags (under style and above the body sections) do?
+        </li>
+        <li>
+          Why are there some style attributes used within html elements, and some in the style section?
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
