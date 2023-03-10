@@ -1,0 +1,51 @@
+body {
+  font-family: 'Apple Garamond', serif;
+  font-size: 26px;
+  padding: 0px 100px 100px 100px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: 900;
+  margin: 0;
+  white-space: pre;
+  padding-bottom: 110px;
+  text-align: center;
+
+
+}
+
+.entries {
+  margin-bottom: 60px;
+  text-align: center;
+
+  
+}
+
+.heading {
+  margin-bottom: 60px;
+}
+
+.chapter {
+  font-size: 50px;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.page {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+
+span {
+  display: block;
+}
