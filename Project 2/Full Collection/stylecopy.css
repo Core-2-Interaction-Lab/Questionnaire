@@ -1,0 +1,85 @@
+img {
+    width: 260%;
+    height: 80%;
+    box-shadow: 5px 5px 10px 10px;
+
+}
+/* this width with the other grid make a stacked affect I liked idk so heres the copy */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .grid-child-element {
+    float: left;
+    padding: 1%;
+    height: 170%; /* Should be removed. Only for demonstration */
+  }
+
+  .grid-child-element.left {
+    width: 80%;
+  }
+
+  .grid-child-element.right {
+    width: 20%;
+  }
+  
+  /* Clear floats after the columns */
+  .grid-container-element:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.item-title {
+    font-size: 20px;
+    padding: 0px;
+}
+
+.item-artist {
+    font-size: 10px;
+}
+
+
+p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+img {
+    align-content: center;
+}
+
+li {
+    list-style-type: none;
+    width: 10%;
+
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+}
+
+ul li {
+    vertical-align: middle;
+}
+
+ul {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  body {
+    padding: 80px;
+  }
+
+  .grid {
+    margin: 1%;
+  }

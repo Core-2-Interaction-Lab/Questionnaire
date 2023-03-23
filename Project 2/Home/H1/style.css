@@ -1,0 +1,30 @@
+
+
+body {
+    overflow: hidden;
+    padding: none;
+    background: url("HomePage.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-position: 0px -250px;
+}
+
+
+.container {
+    position: relative;
+  text-align: center;
+  color: white;
+}
+
+.top-right {
+    position: absolute;
+    top: 630px;
+    right: 10%;
+    font-family: 'Bungee Outline', cursive;
+    font-size: 90px;
+  }

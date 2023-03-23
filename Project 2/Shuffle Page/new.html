@@ -1,0 +1,89 @@
+<html>
+
+<head>
+  <meta name="viewport" 
+        content="width=device-width, 
+        initial-scale=1.0, 
+        user-scalable=no" />
+  <title>Drag/Drop/Bounce</title>
+  <style>
+
+.s-img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+
+}
+
+
+
+
+#img-to-drag {
+    transition: width 250ms ease , height 250ms ease;
+    border-radius: 5px;
+}
+
+
+#img-to-drag:hover  {
+      cursor: grab;
+      border-width: 20px;
+      height: 240px;
+      width: 240px;
+    }
+
+#img-to-drag:active {
+    width: 220px;
+    height: 220px;
+}
+
+
+#1 {
+    left: 10%;
+    top: 60%;
+}
+
+#2 {
+    left: 10%;
+    top: 60%;
+}
+
+#3 {
+    left: 10%;
+    top: 60%;
+}
+
+#4 {
+    left: 10%;
+    top: 60%;
+}
+
+#5 {
+    left: 10%;
+    top: 60%;
+}
+
+  </style>
+</head>
+
+<body>
+
+    <div id="1">     <img src="Assets/1.JS1.png" id="img-to-drag" class="s-img" alt="Dark Side of the Moon" >   </div> 
+    <div id="2">     <img src="Assets/2.JS1.png" id="img-to-drag" class="s-img" alt="When We Fall Asleep Where do we go?" > </div>
+    <div id="3">     <img src="Assets/3.JS1.png" id="img-to-drag" class="s-img" alt="Happier than Ever" > </div>
+    <div id="4">     <img src="Assets/4.JS1.png" id="img-to-drag" class="s-img" alt="A Rush of Blood to the Head" > </div>
+    <div id="5">     <img src="Assets/5.JS1.png" id="img-to-drag" class="s-img" alt="Harry Styles" > </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/draggabilly/3.0.0/draggabilly.pkgd.min.js" integrity="sha512-hbEWVzVt2yK7kQmJ1NZirxxO0NPtE4W09fT4f9Emem/n0rMPFHlLbuLcUcLNrtUGWGoQ8qGvKDVJnRRuCzjeZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script> 
+    let el = document.getElementById('img-to-drag');
+    let draggie = new Draggabilly(el);
+</script>
+
+
+</body>
+
+</html>

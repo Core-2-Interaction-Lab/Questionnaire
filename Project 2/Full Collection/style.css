@@ -1,0 +1,124 @@
+img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 14rem;
+    width: auto;
+}
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .grid-child-element {
+    float: left;
+    padding: 1%;
+    height: 170%; /* Should be removed. Only for demonstration */
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+  }
+
+  .grid-child-element.left {
+    width: 50%;
+    white-space: nowrap;
+    display: inline-block;
+    
+  }
+
+  .grid-child-element.right {
+    width: 15%;
+    float: right;
+  }
+  
+  /* Clear floats after the columns */
+  .grid-container-element:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.item-title {
+    font-size: 20px;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    margin-top: 5%;
+    
+}
+
+.item-artist {
+    font-size: 10px;
+    margin:0;
+    display: flex;
+    margin-bottom: -20%;
+}
+
+#info { 
+    text-align: center;
+    display: inline-block;
+}
+
+p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+img {
+    align-content: center;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+    flex-wrap: wrap;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Bungee Outline', cursive;
+    font-size: 110px;
+    color: white;
+}
+
+ul li {
+    vertical-align: middle;
+}
+
+ul {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  body {
+    padding: 80px;
+    background:
+        linear-gradient(to bottom right, rgb(213, 117, 91), rgb(179, 152, 131), rgb(216, 124, 202) );
+
+    }
+
+
+
+  .grid {
+    margin: 1%;
+  }
+
+
+
+
+
+
+
+
+

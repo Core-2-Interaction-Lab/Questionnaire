@@ -1,0 +1,24 @@
+.draggable {
+    /* Indicate the element draggable */
+    cursor: move;
+
+    /* It will be positioned absolutely */
+    position: absolute;
+
+    /* Doesn't allow to select the content inside */
+    user-select: none;
+}
+
+
+#container {
+    position: relative;
+}
+
+#draggable-element {
+    position: absolute;
+    transform: translate(-505, -50%);
+    left: 50%;
+    top: 50%;
+    display: grid;
+    place-items: center;
+}
