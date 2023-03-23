@@ -1,0 +1,106 @@
+body {
+    background:
+    linear-gradient(to bottom right, rgb(91, 146, 213), rgb(97, 139, 151), rgb(107, 113, 167) );
+
+}
+
+
+img {
+    width: 40%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
+
+img {
+    transition: transform .7s ease-in-out;
+  }
+
+  img:onclick {
+    animation: rotation 1s infinite linear;
+    transition-timing-function: ease-in-out;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+  .songs {
+    right: 13%;
+    position: absolute;
+    top: 25%;
+    line-height: 250%;
+    font-family: 'futura';
+    font-size: 100%;
+    padding-top: 10px;
+    color: white;
+  }
+
+  @font-face {
+    font-family: 'futura';
+      src: url('fonts/futura.eot'); /* IE9 Compat Modes */
+      src: url('fonts/futura.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('fonts/futura.woff2') format('woff2'), /* Super Modern Browsers */
+          url('fonts/futura.woff') format('woff'), /* Pretty Modern Browsers */
+          url('fonts/futura.ttf')  format('truetype'), /* Safari, Android, iOS */
+          url('fonts/futura.svg#svgFontName') format('svg'); /* Legacy iOS */
+      font-weight: 400;
+      font-style: normal;
+  }
+
+  #player-container #play-pause {
+    cursor: pointer;
+    text-indent: -999999px;
+    height:40px;
+    width: 40px;
+    padding: 12px 18px;
+    z-index: 2;
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+      background-repeat: no-repeat!important;
+      background-position: center;
+      background-size: 16px;
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:20px;
+  }
+  .play {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMiAyNHYtMjRsMjAgMTItMjAgMTJ6Ii8+PC9zdmc+);
+  }
+  .pause {
+     background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTAgMjRoLTZ2LTI0aDZ2MjR6bTEwLTI0aC02djI0aDZ2LTI0eiIvPjwvc3ZnPg==)!important;
+  }
+
+
+  #image {
+    animation: rotation 1s linear 0s infinite;
+    animation-play-state: paused;
+  }
+  
+  @keyframes rotation {
+    to {
+      transform: rotate(360deg)
+    }
+  }
+
+  #content {
+    display: none;
+    padding-bottom: 20px;
+  }
+
+  #toggle:hover {
+    cursor: s-resize;
+  }
+
+  audio {
+    width: 380px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+
+

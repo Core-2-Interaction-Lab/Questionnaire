@@ -1,0 +1,35 @@
+body {
+    overflow: hidden;
+    padding: none;
+    background: url("homepage.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-position: 0px -15px;
+}
+
+.book {
+    height: 590px;
+    width: 420px;
+    transform: rotate(-12deg);
+    left: 23%;
+    position: absolute;
+    top: 16%;
+}
+
+.cd {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    right: 18%;
+    bottom: 32%;
+    position: absolute;
+}
+
+
+
+
