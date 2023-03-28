@@ -1,0 +1,245 @@
+
+
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Create two equal columns that floats next to each other */
+  .grid-container {
+}
+  
+  
+.grid-child-element.right {
+    margin-top: -10%;
+    margin-left: 3%;
+    position: relative;
+}
+
+  .grid-child-element.left {
+
+    width: 100%;
+    padding-bottom: 880px;
+    padding-top: 1%;
+    }
+
+}
+  
+  /* Clear floats after the columns */
+  .grid-container-element:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .divs {
+    display: flex;
+  }
+  
+.item-title {
+    font-size: 15px;
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    margin-top: 5%;
+    padding-top: 8px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+.item-artist {
+    font-size: 10px;
+    margin:0;
+    margin-bottom: -2%;
+    margin-top: 1px;
+    padding-top: 7px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+p {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+img {
+    align-content: center;
+}
+
+li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3%;
+    flex-wrap: wrap;
+}
+
+
+
+.title {
+    top: -2000px;
+    font-size: 950%;
+    font-family: 'Bungee Outline';
+    padding: 10px;
+    top: -100px;
+    margin-bottom: -5%;
+    color: white;
+    position: relative;
+    padding-left: 3%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+
+
+ul li {
+    vertical-align: middle;
+}
+
+ul {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  body {
+    padding: 80px;
+    background: 
+        linear-gradient(217deg, rgba(156, 96, 96, 0.8), rgba(255,0,0,0) 70.71%) fixed,            
+        linear-gradient(127deg, rgba(221, 126, 32, 0.8), rgba(0,255,0,0) 70.71%) fixed,            
+        linear-gradient(336deg, rgba(152, 80, 131, 0.8), rgba(0,0,255,0) 70.71%) fixed;
+    height: 100%;
+    margin: 0; 
+    padding-bottom: 200px;
+    }
+
+    html {
+        height: 100%;
+    }
+
+
+  .grid {
+    margin: 1%;
+  }
+
+  .divs {
+    display: flex;
+}
+
+.buttons {
+    flex-direction: row;
+    padding-top: 10%;
+    
+}
+
+.button {
+    background-color: none;
+    border: white;
+    color: transparent;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    width: 25%;
+    height: 5%;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+.button:hover {
+    border: 10px;
+    border-color: white;
+}
+.here {
+    background-color: white;
+    border: 2px solid none;
+    color: rgb(84, 84, 184);
+}
+
+
+button {
+    border-radius: 22px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 4px;
+    cursor: pointer;
+    width: 25%;
+    height: 50px;
+    text-decoration: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    width: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 2px solid white;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: color 0.5s, border 0.5s;
+}
+
+button:hover {
+    color: rgb(84, 84, 184);
+    border: 2px solid rgb(84, 84, 184);
+}
+
+
+.homebut {
+    position: fixed;
+    right: 5%;
+    top: 9%;
+    width: 7%;
+}
+
+a {
+    text-decoration: inherit;
+}
+
+#info {
+    overflow-wrap: break-word;
+  hyphens: auto;
+}
+
+div.item {
+    /* To correctly align image, regardless of content height: */
+    vertical-align: top;
+    display: inline-block;
+    /* To horizontally center images and caption */
+    text-align: center;
+    /* The width of the container also implies margin around the images. */
+    width: 280px;
+}
+img {
+    width: 260px;
+    height: 260px;
+}
+.caption {
+    /* Make the caption a block so it occupies its own line. */
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+p {
+    max-width: 280px;
+}
+
+a {
+    text-decoration: none;
+}
