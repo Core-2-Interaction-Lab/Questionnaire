@@ -1,0 +1,39 @@
+.ingredients {
+
+}
+
+img {
+    height: 320px;
+    width: auto;
+}
+
+body {
+    padding-top: -2%;
+    padding-left: 4%;
+    padding-right: 10%;
+}
+
+h1 {
+    font-size: 500%;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 24fr 80fr;
+    grid-gap: 20px;
+}
+
+.pics {
+    padding-top: 2%;
+}
+
+li {
+    line-height: 150%;
+}
+
+.recipe {
+    font-size: 80%;
+}
+
+
+
