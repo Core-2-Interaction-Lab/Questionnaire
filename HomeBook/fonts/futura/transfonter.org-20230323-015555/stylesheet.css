@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Futura BdCn BT';
+    src: url('FuturaBT-BoldCondensed.eot');
+    src: url('FuturaBT-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BoldCondensed.woff2') format('woff2'),
+        url('FuturaBT-BoldCondensed.woff') format('woff'),
+        url('FuturaBT-BoldCondensed.ttf') format('truetype'),
+        url('FuturaBT-BoldCondensed.svg#FuturaBT-BoldCondensed') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
