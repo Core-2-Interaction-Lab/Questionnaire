@@ -54,6 +54,40 @@ li {
     padding-right: 4%;
   }
 
+  @keyframes panSpin {
+    0% {
+      transform: rotate(0turn);
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  
+  #pan {
+    animation: panSpin 15s ease-out infinite;
+    height: 280px;
+    position: fixed;
+    left: 240px;
+    top: 40px;
+  }
+
+  @keyframes breadSpin {
+    0% {
+      transform: rotate(0turn);
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+  
+  #bread {
+    animation: breadSpin 25s ease-out infinite;
+    height: 180px;
+    position: fixed;
+    right: 20px;
+    top: 550px;
+  }
+
   @keyframes eggSpin {
     0% {
       transform: rotate(0turn);
@@ -65,10 +99,10 @@ li {
   
   #egg {
     animation: eggSpin 5s ease-out infinite;
-    height: 180px;
     position: fixed;
-    right: 80px;
-    top: 90px;
+    top: 340px;
+    width: 200px;
+
   }
 
   p {
