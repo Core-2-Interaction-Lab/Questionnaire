@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #cbc7bb, #dd9c7e);
+    padding-left: 11%;
+    padding-top: 10%;
+    padding-bottom: 40%;
+  }
+
+  .body {
+    width: 80%;
+    font-size: 173%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    line-height: 142%;
+  }
+
+
+.title {
+    text-align: justify;
+    font-size: 950%;
+    color: white;
+    padding-bottom: 7%;
+    font-family: 'Bungee Outline';
+    padding-bottom: 4%;
+}
+
+
+.homebut {
+    position: fixed;
+    right: 5%;
+    top: 9%;
+    width: 7%;
+}
+
+.pic {
+    width: 50%;
+    height: auto;
+    padding-top: 6%;
+}
+
+img {
+    width: 100%;
+    float: left;
+}
+
+.my-setup {
+    font-size: 500%;
+    font-family: 'Bungee Outline';
+    color: white;
+    float: left;
+    padding-left: 6%;
+}
+
+
+  a {
+    background: linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 255, 255)) no-repeat right bottom / 0 var(--bg-h);
+    transition: background-size 350ms;
+    --bg-h: 100%;
+  }
+  a:where(:hover, :focus-visible) {
+    background-size: 100% var(--bg-h);
+    background-position-x: left;
+  }
+  
+  .underline {
+    padding-bottom: 2px;
+    --bg-h: 2px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;
+  }
+
+  .homebut a {
+    background: none;
+  }
+
