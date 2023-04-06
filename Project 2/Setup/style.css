@@ -1,0 +1,228 @@
+/* ======================================
+Responsive Image gallery Style rules
+======================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(to right, #859eaa, #d5a88a);
+    padding-left: 11%;
+    padding-bottom: 20%;
+    padding-top: 5%;
+    padding-right: 5%;
+    font-size: 90%;
+  }
+
+  .body1 {
+    width: 40%;
+    font-size: 143%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    line-height: 152%;
+    float: left;
+    padding-left: 5%;
+  }
+
+  .body2 {
+    vertical-align: top;
+    display: inline-block;
+    width: 80%;
+    padding-top: 10%;
+    padding-bottom: 6%;
+    font-size: 143%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    line-height: 162%;
+  }
+
+.title {
+    text-align: justify;
+    font-size: 950%;
+    color: white;
+    font-family: 'Bungee Outline';
+    padding-bottom: 8%;
+}
+
+
+.homebut {
+    position: fixed;
+    right: 5%;
+    top: 9%;
+    width: 7%;
+}
+
+.hb:hover {
+  text-decoration: none;
+}
+
+.pic1 {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+img {
+    width: 100%;
+
+}
+
+.container1 {
+  width: 100%;
+  flex-wrap: wrap;
+  padding-bottom: 25%;
+}
+
+.container2 {
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 20%;
+}
+
+.pic2 {
+  width: 24%;
+  height: auto;
+  float: left;
+  position: relative;
+  padding-right: 2%;
+}
+.pic3 {
+  width: 24%;
+  height: auto;
+  float: left;
+  padding-right: 2%;
+}
+.pic4 {
+  width: 20%;
+  height: auto;
+  float: left;
+}
+
+.container3 {
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 5%;
+  padding-bottom: 15%;
+}
+
+.pic5 {
+  width: 24%;
+  height: auto;
+  float: left;
+  padding-right: 2%;
+}
+.pic6 {
+  width: 41%;
+  float: left;
+  padding-right: 2%;
+}
+.pic7 {
+  width: 22%;
+  height: auto;
+  float: left;
+}
+
+.container4 {
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 25%;
+  padding-bottom: 50%;
+}
+
+.stack1 {
+  width: 40%;
+  float: left;
+}
+
+.caption {
+  display: block;
+  font-size: 143%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: white;
+  line-height: 162%;
+  padding-bottom: 5%;
+}
+
+.pic8 {
+  width: 100%;
+  height: auto;
+}
+
+.pic9 {
+  width: 49%;
+  float: left;
+  padding-left: 5%;
+
+}
+
+
+.container5 {
+  width: 100%;
+  flex-wrap: wrap;
+  padding-top: 6%;
+  padding-bottom: 50%;
+}
+
+.pic10 {
+  width: 40%;
+  float: left;
+
+}
+
+.body3 {
+  width: 40%;
+    font-size: 143%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    color: white;
+    line-height: 152%;
+    float: left;
+    padding-left: 5%;
+}
+
+
+
+.other {
+  font-size: 400%;
+  font-family: 'Bungee Outline';
+  color: white;
+  float: left;
+  padding-top: 5%;
+  padding-bottom: 13%;
+}
+
+
+.other {
+  background: linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 255, 255)) no-repeat right bottom / 0 var(--bg-h);
+  transition: background-size 350ms;
+  --bg-h: 100%;
+}
+a:where(:hover, :focus-visible) {
+  background-size: 100% var(--bg-h);
+  background-position-x: left;
+}
+
+.underline {
+  padding-bottom: 2px;
+  --bg-h: 2px;
+  transition: color 0.5s, border 0.5s;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+}
+
+
+
+.other:hover {
+  color: rgb(84, 84, 184);
+}
