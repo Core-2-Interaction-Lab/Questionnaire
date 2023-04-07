@@ -84,3 +84,28 @@ audio {
     height: auto;
     rotate: 15deg;
 }
+
+
+@media (max-width: 700px) {
+    .wrapper {
+        display: list-item;
+        overflow: visible;
+    }
+    .container {
+        overflow: scroll;
+        height: 100%;
+        outline-style: none;
+        width: 100%;
+    }
+    body {
+        background-image: none;
+    }
+    .atm {
+        position: relative;
+        padding-top: -5%;
+        padding-bottom: 2%;
+        left: 3%;
+        width: 70%;
+        height: auto;
+    }
+}
