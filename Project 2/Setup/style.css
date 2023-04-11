@@ -29,6 +29,20 @@ Responsive Image gallery Style rules
     padding-left: 5%;
   }
 
+  @media only screen and (max-width: 860px){
+    .body1 {
+      position: relative;
+      width: 80%;
+      padding-left: 0%;
+      padding-top: 5%;
+    }
+    .pic1 {
+      width: 84%;
+      height: auto;
+      float: left;
+  }
+  }
+
   .body2 {
     vertical-align: top;
     display: inline-block;
@@ -63,7 +77,7 @@ Responsive Image gallery Style rules
 }
 
 .pic1 {
-    width: 40%;
+    width: 44%;
     height: auto;
     float: left;
 }
@@ -82,7 +96,8 @@ img {
 .container2 {
   width: 100%;
   flex-wrap: wrap;
-  padding-top: 20%;
+  float: left;
+  padding-top: 10%;
 }
 
 .pic2 {
@@ -99,7 +114,7 @@ img {
   padding-right: 2%;
 }
 .pic4 {
-  width: 20%;
+  width: 22%;
   height: auto;
   float: left;
 }
@@ -139,6 +154,24 @@ img {
   width: 40%;
   float: left;
 }
+
+
+@media only screen and (max-width: 860px) {
+  .stack1 {
+    width: 80%;
+  }
+  .pic9 {
+    width: 3000px;
+  }
+  .pic10 {
+    width: 80%;
+  }
+  .body3 {
+    width: 100%;
+    position: sticky;
+  }
+}
+
 
 .caption {
   display: block;
@@ -198,8 +231,7 @@ img {
   padding-bottom: 13%;
 }
 
-
-.other {
+a {
   background: linear-gradient(0deg, rgb(255, 255, 255), rgb(255, 255, 255)) no-repeat right bottom / 0 var(--bg-h);
   transition: background-size 350ms;
   --bg-h: 100%;
@@ -212,7 +244,6 @@ a:where(:hover, :focus-visible) {
 .underline {
   padding-bottom: 2px;
   --bg-h: 2px;
-  transition: color 0.5s, border 0.5s;
 }
 
 a {
@@ -221,8 +252,6 @@ a {
   line-height: 1;
 }
 
-
-
-.other:hover {
-  color: rgb(84, 84, 184);
+.homebut a {
+  background: none;
 }
