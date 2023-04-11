@@ -10,12 +10,12 @@
     background-image: linear-gradient(to right, #cbc7bb, #dd9c7e);
     padding-left: 11%;
     padding-top: 10%;
-    padding-bottom: 40%;
+    padding-bottom: 36%;
   }
 
   .body {
     width: 80%;
-    font-size: 173%;
+    font-size: 143%;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     color: white;
@@ -25,7 +25,8 @@
 
 .title {
     text-align: justify;
-    font-size: 950%;
+    font-size: 930%;
+    line-height: 120px;
     color: white;
     padding-bottom: 7%;
     font-family: 'Bungee Outline';
