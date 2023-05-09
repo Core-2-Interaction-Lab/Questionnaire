@@ -34,14 +34,13 @@ ul {
     /* border: 5px solid; */
     position: relative;
     top: -300px;
-    margin-top: 20%;
+    margin-top: 18%;
 }
 
 .intro {
     white-space:normal;
     word-wrap: break-word;
-    width:50%;
-    max-width:50%;
+    width:60%;
     margin-left: auto;
     margin-right: auto;
 }

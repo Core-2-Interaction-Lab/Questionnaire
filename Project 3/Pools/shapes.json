@@ -42,20 +42,6 @@
       "image": "Assets/shape-03.png"
     },
     {
-      "BOROUGH": "M",
-      "COMMUNITYBOARD": 109,
-      "COUNCILDISTRICT": 7,
-      "PARKDISTRICT": "M-09",
-      "GISPROPNUM": "M190",
-      "LOCATION": "Outdoor",
-      "NAME": "Sheltering Arms Pool",
-      "OMPPROPID": "M190",
-      "SYSTEM": "M190-POOL-0029",
-      "polygon": "POLYGON ((-73.95582714943274 40.81486222095009, -73.9556782959823 40.81469006891667, -73.95549865332038 40.81478302377666, -73.95564138376217 40.81495827499603, -73.95582714943274 40.81486222095009))",
-      "POOLTYPE": "Intermediate",
-      "image": "Assets/shape-04.png"
-    },
-    {
       "BOROUGH": "B",
       "COMMUNITYBOARD": 316,
       "COUNCILDISTRICT": 41,
