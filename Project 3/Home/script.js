@@ -5,3 +5,5 @@ $(function() {
       offset: '50%'
     });
   });
+
+  var rellax = new Rellax('.rellax');
