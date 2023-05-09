@@ -1,0 +1,87 @@
+:root {
+	--size-1: 25px;
+}
+
+body {
+	font: 30px/1 monospace;
+	background-color: #6067F3;
+	overflow-y: hidden;
+}
+
+/* Always set the map height explicitly to define the size of the div element that contains the map. */
+#map {
+  width: 70vw;
+  height: 80vh;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 6%;
+  margin-left: 12%
+}
+
+.gm-style .gm-style-iw-c {
+	border-radius: 0;
+	padding: 10px !important;
+	font-family: monospace;
+}
+
+.gm-style .gm-style-iw-c .gm-style-iw-d {
+	overflow: hidden !important;
+}
+
+/* popup exit button */
+.gm-ui-hover-effect>span {
+	width: 17px !important;
+	height: 17px !important;
+	margin: 6px !important;
+	background: blue !important;
+}
+
+.gm-control-active,
+.gm-svpc,
+.gmnoprint,
+.gm-style-cc,
+img[alt="Google"] {
+	display: none !important;
+}
+
+
+.dropbtn {
+	color: white;
+	padding: 16px;
+	border: none;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	position: fixed;
+	right: 2.5%;
+	top: 9%;
+	width: 9.5%;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 50px;
+	z-index: 1;
+	line-height: 30%;
+  }
+  
+  .dropdown-content a {
+	color: white;
+	font-size: 70%;
+	text-align: right;
+	font-family: 'Varela Round', sans-serif;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {
+	color: rgb(7, 7, 255);
+	transition: color 0.5s, border 0.5s;
+	;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
