@@ -1,0 +1,283 @@
+body {
+    height: 100%;
+    margin: 2%;
+    padding: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    font-family: 'Varela Round', sans-serif;
+    background-color: #6067F3;
+    color: white;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+
+}
+
+.section {
+    width: 90%;
+    height: 100vh;
+}
+
+ul {
+    margin: 0%;
+}
+
+
+#intro {
+    width: 100vw;
+    height: 100vw;
+    font-size: 130%;
+    /* border: 5px solid; */
+    position: relative;
+    top: -300px;
+    margin-top: 20%;
+}
+
+.intro {
+    white-space:normal;
+    word-wrap: break-word;
+    width:50%;
+    max-width:50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span {
+display: inline-block;
+  vertical-align: middle;
+  line-height: 160%;
+  margin: 12%;
+  text-align: center;
+  word-wrap: break-word;
+  color: white;
+  padding: 1.5%;
+  margin-top: 18%;
+}
+
+#bodyt {
+    padding: 12%;
+    width: 50vw;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
+.row {
+    height: 100%;
+    white-space: nowrap;
+    position: relative;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-top: 6%
+}
+
+.row .shapes {
+   
+    float: none;
+    height: 100%;
+    display: inline-block;
+
+}
+
+
+.caption {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    font-size: 103%;
+    line-height: 70%;
+    padding-top: 3%;
+}
+
+p {
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.shapes {
+    width: 70%;
+}
+
+.shape {
+    width: 100%;
+    text-align: center;
+}
+
+.wrapper {
+    position: fixed;
+    right: 5%;
+    top: 9%;
+    width: 7%;
+}
+
+.hover-rotate img {
+    transition: all 0.3s;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .hover-rotate:hover img {
+    transform: scale(1.3) rotate(5deg);
+  }
+
+
+/* this is for the home button transition */
+
+/* .cc-tags {
+    zoom: 1;
+    }
+    .cc-tags:before, .cc-tags:after {
+    content: '';
+    display: table;
+    }
+
+    .cc-tags:after {
+    clear: both;
+    }
+    .cc-tags li {
+    float: right;
+    list-style: none outside none;
+    margin: 0 0 8px 10px;
+    position: relative;
+    list-style:none;
+    }
+    .cc-tags a, .cc-tags span {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    }
+    .cc-tags a {	
+      border:solid 1px #D2D2D2;
+    border-radius: 2px 0 0 2px;
+    color: #000000;
+    font-size: 14px;
+    height: 32px;
+    line-height: 30px;
+    padding: 0 12px;
+    text-decoration: none;
+    right: 5%;
+    top: 9%;
+    width: 200px; 
+    height: 200px;
+     
+    }
+
+    .cc-tags a:before span {
+        
+    }
+
+    .cc-tags a:hover span {
+        padding: 0 12px;
+        max-width: 40px;
+          } */
+
+        /* this is the sliding text */
+        /* .cc-tags span { 
+        padding: none;
+        color: #6067F3;
+        font-size: 150%;
+        height: 32px;
+        width: 100px;
+        right: 80%;
+        line-height: 31px;
+        max-width: 12;
+        overflow: hidden;
+        padding: 0 20px 0 2px;
+        position: absolute;
+        top: 0;
+        transition-delay: 0s;
+        transition-duration: 0.3s;
+        transition-property: padding, max-width;
+        transition-timing-function: ease-out;
+        transition-timing-function: ease-in;
+        z-index: 2;
+        } */
+
+
+        
+/* .but {
+
+}
+
+#slide {
+    position: absolute;
+    left: -100px;
+    width: 100px;
+    height: 100px;
+    background: blue;
+    transition: 1s;
+}
+
+.but:hover #slide {
+    transition: 1s;
+    left: 0;
+}
+.wrapper {
+
+    position: fixed;
+    right: 5%;
+    top: 9%;
+    width: 7%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px; 
+    border: 1px solid black;
+} */
+
+
+.dropbtn {
+	color: white;
+	padding: 16px;
+	border: none;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: inline-block;
+	position: fixed;
+	right: 5%;
+	top: 9%;
+	width: 7%;
+    z-index: 7;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: absolute;
+	z-index: 1;
+	line-height: 60%;
+	text-align: center;
+	margin-left: 30%;
+	margin-right: auto;
+  }
+  
+  .dropdown-content a {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-size: 130%;
+	font-family: 'Varela Round', sans-serif;
+	padding: 18% 0%;
+	text-decoration: none;
+	display: block;
+  }
+  
+  .dropdown-content a:hover {
+	color: rgb(7, 7, 255);
+	transition: color 0.5s, border 0.5s;
+    cursor: pointer
+	;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
