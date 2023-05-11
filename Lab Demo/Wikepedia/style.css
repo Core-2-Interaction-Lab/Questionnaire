@@ -1,0 +1,86 @@
+/* Just to make the demo easier to work with. */
+
+:root {
+	--spacing: 1em;
+}
+
+
+
+body {
+	font-family: sans-serif;
+	padding: var(--spacing);
+	padding-bottom: 33vh;
+	background-color: black;
+	color: white;
+}
+
+aside { margin-bottom: calc(4 * var(--spacing)); }
+
+h1 { 
+    font-size: 400%; 
+    padding: 20px;
+    text-align: center;
+	margin-top: 4%;
+}
+
+h2 { font-weight: bold; }
+
+p {
+    padding: 10px;
+    text-align: justify;
+}
+
+.capp {
+	text-align: center;
+}
+
+a { color: rgb(153, 153, 255); }
+
+em { font-style: italic }
+
+ul {
+	display: grid;
+	gap: calc(4 * var(--spacing));
+	margin-top: calc(4 * var(--spacing));
+}
+
+li {
+	display: grid;
+	gap: var(--spacing);
+}
+
+.faded { opacity: 0.333 }
+
+img {
+	height: 400px;
+}
+
+.left {
+	float: left;
+	margin: 8%;
+	width: 30%;
+	margin-left: 15%;
+}
+
+.right {
+	float: left;
+	margin: 5%;
+	width: 30%;
+}
+
+.item-PageTitle {
+	font-size: 240%;
+	font-weight: bold;
+}
+
+.item-year {
+	margin-top: 60%;
+}
+
+.item-cap {
+	text-align: justify;
+	width: 90%;
+	font-size: 80%;
+	line-height: 150%;
+}
+
