@@ -1,0 +1,180 @@
+body {
+    width: 100%;
+    background-color: rgb(222, 220, 250);
+    color: rgb(86, 93, 229);
+    overflow-x: hidden;
+    font-family: futura;
+}
+
+.title {
+    width: 100vw;
+    font-size: 800%;
+    text-align: center;
+    margin-top: 14%;
+    margin-bottom: 5%;
+}
+
+.intro {
+    width: 55vw;
+    font-size: 130%;
+    line-height: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.splash {
+    text-align: center;
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
+
+/* video {
+    width: fit-content;
+} */
+
+.container {
+    text-align: center;
+}
+
+.home {
+    float: left;
+    width: 60%;
+    margin-bottom: 20%;
+    margin-left: 4%;
+}
+
+.side {
+    float: right;
+    width: 25%;
+    padding-right: 10%;
+    text-align: left;
+    font-size: 130%;
+    line-height: 150%;
+    margin-top: 1%;
+}
+
+.hoo {
+    text-align: center;
+}
+
+.sub {
+    font-size: 300%;
+    width: 100vw;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 4%;
+    clear: both;
+}
+
+.nom {
+    font-size: 200%;
+    width: 100vw;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.head {
+    font-size: 150%;
+    width: 100vw;
+    text-align: center;
+    margin-top: 3%;
+}
+
+.bod {
+    width: 50%;
+    text-align: center;
+    font-size: 130%;
+    line-height: 180%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+}
+
+.main {
+    width: 50%;
+    text-align: center;
+    font-size: 110%;
+    line-height: 150%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
+    margin-top: 1%;
+}
+
+.sec {
+    width: 100%;
+    margin-bottom: 12%;
+}
+
+.sections {
+    margin-top: 12%;
+}
+
+.up {
+    width: 900px;
+}
+
+.under {
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+    margin-bottom: 21%;
+    margin-top: 23%;
+}
+
+button {
+    font-size: 16px;
+    font-family: futura;
+    text-align: center;
+    width: 350px;
+    height: 200px;
+    text-decoration: none;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: 4px solid rgb(86, 93, 229);
+    color: rgb(86, 93, 229);
+    padding: 14px 28px;
+    font-size: 300%;
+    cursor: pointer;
+    transition: color 0.5s, border 0.5s;
+  }
+  
+  button:hover {
+    color: white;
+    border: 20px solid white;
+    background-color: transparent;
+  }
+
+  .waves {
+    font-size: 300%;
+    text-align: center;
+  }
+
+
+  a {
+    text-decoration: none;
+    color: rgb(138, 143, 237);
+    transition: color 0.5s
+  }
+
+  a:hover {
+    color: white;
+  }
+
+
+  @font-face {
+    font-family: 'futura';
+      src: url('fonts/futura.eot'); /* IE9 Compat Modes */
+      src: url('fonts/futura.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+          url('fonts/futura.woff2') format('woff2'), /* Super Modern Browsers */
+          url('fonts/futura.woff') format('woff'), /* Pretty Modern Browsers */
+          url('fonts/futura.ttf')  format('truetype'), /* Safari, Android, iOS */
+          url('fonts/futura.svg#svgFontName') format('svg'); /* Legacy iOS */
+      font-weight: 400;
+      font-style: normal;
+  }
